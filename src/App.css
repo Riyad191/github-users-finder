@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: rgb(223, 86, 32);
+  padding: 80px;
+
+  background: linear-gradient(
+    10deg,
+    rgb(238, 128, 81) 10%,
+    rgb(209, 81, 64) 90%
+  );
+  background: linear-gradient(
+    89deg,
+    rgb(209, 81, 64) 50%,
+    rgb(238, 128, 81) 50%,
+    rgb(238, 128, 81) 50%,
+    rgb(209, 81, 64) 50%,
+    rgb(238, 128, 81) 100%
+  );
+  color: rgb(236, 59, 46);
+}
+.App {
+  text-align: center;
+}
+.logo {
+  margin: 0 0 150px 0;
+  color: white;
+}
+.logo h1 {
+  font-size: 40px;
+}
+#icon {
+  font-size: 120px;
+}
+@media (max-width: 480px) {
+  .logo {
+    margin: 0 0 50px 0;
+  }
+  .logo h1 {
+    font-size: 15px;
+  }
+  #icon {
+    font-size: 70px;
+  }
+  body {
+    padding: 20px 0 60px 0;
+  }
+}
