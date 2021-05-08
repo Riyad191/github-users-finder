@@ -152,13 +152,13 @@ li {
 @media (max-width: 480px) {
   .display {
     height: 100%;
-    width: 310px;
+    width: 360px;
     padding: 0 0 30px 0;
   }
   img {
-    height: 70px;
+    height: 90px;
     text-align: left;
-    margin: -40px 0 0 0;
+    margin: -60px 0 0 0;
   }
 
   .name {
@@ -180,7 +180,7 @@ li {
     border-radius: 16px;
     height: 80px;
     width: 90%;
-    /* font-size: 10px; */
+
     /* border: solid red 1px; */
     display: flex;
 
@@ -212,20 +212,20 @@ li {
   }
 
   .inp {
-    height: 20px;
-    width: 120px;
+    height: 30px;
+    width: 140px;
 
     border-radius: 30px;
-    font-size: 9px;
+    font-size: 12px;
 
     padding-left: 10px;
   }
   #btn {
-    font-size: 9px;
+    font-size: 12px;
     border-radius: 30px;
 
-    height: 20px;
-    width: 40px;
+    height: 30px;
+    width: 50px;
 
     margin-left: 1px;
   }
@@ -242,10 +242,10 @@ li {
   }
   #repoIcon {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 17px;
   }
   #a {
-    font-size: 10px;
+    font-size: 12px;
   }
   .picName {
     text-align: left;
@@ -254,11 +254,11 @@ li {
   }
   .picNameChild {
     text-align: center;
-    width: 73px;
+    width: 93px;
     /* border: solid red 1px; */
   }
   h2 {
-    font-size: 8px;
+    font-size: 10px;
   }
   #repoTitle {
     font-size: 16px;
