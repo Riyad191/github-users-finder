@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="logo">
         <i id="icon" className="fa fa-github"></i>
-        <h1>GitHub Users Finder</h1>
+        <h1>GITHUB USERS FINDER</h1>
       </div>
 
       <Profile />
